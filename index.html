@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style2.css">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
+
+</head>
+<body>
+        <main class="elemento">
+            <div class="imagem">
+            </div>
+        
+              <form action="casdastro.php" method="post">
+                    <h1>Login</h1>
+                    <legend>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</legend>
+        
+                  <div class="input-field">
+
+                      <input type="email" name="email" id="iemail" required minlength="5" maxlength="50" placeholder="seu e-mail" autocomplete="email">
+
+                      <label for="iemail">
+                        <img class="imgMin" src="imagens/avatar.svg" alt="">
+                      </label>
+                  </div>
+
+                  <div class="input-field">
+                    <input type="password" name="senha" id="isenha" required minlength="6" maxlength="12" size="20" placeholder="sua senha" autocomplete="current-password">
+                    
+                    <label for="isenha">
+                      <img class="imgMin"  src="imagens/lock.svg" alt="">
+                    </label>
+                  </div>
+
+                  <div class="entraCor">
+                    <input class="entraCor" type="submit" value="Entrar">
+                  </div>
+
+                  <a href="#">
+                    <div class="esq_sen">                    
+                                          
+                      Esqueci a senha &nbsp; <img src="imagens/email.png" alt="">
+
+                    </div>
+                  </a>
+
+            </form>
+           
+        </main>
+
+</body>
+</html>

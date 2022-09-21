@@ -1,0 +1,172 @@
+@charset "UTF=8";
+
+
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    background: linear-gradient(135.9deg, rgb(109, 25, 252) 16.4%, rgb(125, 31, 165) 56.1%);
+   
+}
+
+.elemento {
+    transition-duration: 1s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white; 
+    width: 250px;
+    height: 515px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.534); 
+    
+}
+
+.imagem {
+    background-image: url(../imagens/back-1.png);
+    height: 200px;
+    background-position: center center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+}
+
+form legend {
+    font-size: 0.8em;    
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5px;
+}
+
+legend {
+    margin: 5px;
+    font-size: 0.8em;
+}
+
+.input-field  {
+    background: linear-gradient(135.9deg, rgb(109, 25, 252) 16.4%, rgb(125, 31, 165) 56.1%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;  
+    padding: 2px; 
+    margin: 5px;
+    border-radius: 8px;
+    
+}
+
+
+
+input {
+    width: 100%;
+    height: 30px;
+    order: none;
+    outline: none; 
+   
+}
+
+.imgMin {
+    width: 23px;      
+} 
+
+.input-field label {
+    width: 50px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.esq_sen {
+    
+    display: flex;
+    justify-content: space-between;
+     
+    padding: 2px; 
+    margin: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid rgb(109, 25, 252);
+    border-radius: 5px;
+
+    background-color: blueviolet;
+
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;    
+}
+
+.esq_sen:hover {
+    background: radial-gradient(502px at 2.7% 23.7%, rgb(142, 5, 254) 0%, rgb(33, 250, 214) 99.6%);
+    
+}
+
+.esq_sen img {
+    width: 12px;
+    height: 12px;
+    padding-top: 1px;
+}
+
+
+
+.entraCor{
+    background: linear-gradient(135.9deg, rgb(109, 25, 252) 16.4%, rgb(125, 31, 165) 56.1%);
+    border: 0px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+
+   
+}
+
+.entraCor:hover {
+    background: radial-gradient(502px at 2.7% 23.7%, rgb(142, 5, 254) 0%, rgb(33, 250, 214) 99.6%);
+ 
+}
+
+label#imgemail {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;  
+   
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+  
+}
+
+input#isenha, input#iemail {
+    border-radius: 5px;
+    border: 0px;
+    padding-bottom: 0px;
+    font-size: 1.0em;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
